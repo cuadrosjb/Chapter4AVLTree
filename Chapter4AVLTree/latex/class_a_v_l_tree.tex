@@ -1,0 +1,209 @@
+\hypertarget{class_a_v_l_tree}{}\section{A\+V\+L\+Tree$<$ object, comparator $>$ Class Template Reference}
+\label{class_a_v_l_tree}\index{A\+V\+L\+Tree$<$ object, comparator $>$@{A\+V\+L\+Tree$<$ object, comparator $>$}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_a_v_l_tree_a968e0b2fa5dd036f41563301830e0cad}{}\label{class_a_v_l_tree_a968e0b2fa5dd036f41563301830e0cad} 
+\hyperlink{class_a_v_l_tree_a968e0b2fa5dd036f41563301830e0cad}{A\+V\+L\+Tree} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} constructor. \end{DoxyCompactList}\item 
+\hypertarget{class_a_v_l_tree_af147fef706e86e66e92f6e0d71a90f9c}{}\label{class_a_v_l_tree_af147fef706e86e66e92f6e0d71a90f9c} 
+\hyperlink{class_a_v_l_tree_af147fef706e86e66e92f6e0d71a90f9c}{$\sim$\+A\+V\+L\+Tree} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} destructor. \end{DoxyCompactList}\item 
+\hyperlink{class_a_v_l_tree_aa8aed3bae2f9006d2d8b91db22f78540}{A\+V\+L\+Tree} (const \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \&rhs)
+\begin{DoxyCompactList}\small\item\em copy Avl\+Tree \end{DoxyCompactList}\item 
+const object \& \hyperlink{class_a_v_l_tree_abb8296a20c0ab3fc8b172cb8c566cbd4}{find\+Min} (const \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \&rhs)
+\begin{DoxyCompactList}\small\item\em find minimun value in the Avl\+Tree \end{DoxyCompactList}\item 
+const object \& \hyperlink{class_a_v_l_tree_a72e12a134186842a034ee0e9c6a59ed6}{find\+Max} (const \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \&rhs)
+\begin{DoxyCompactList}\small\item\em find maximun value in the Avl\+Tree \end{DoxyCompactList}\item 
+\hypertarget{class_a_v_l_tree_ae4693e692f12c92e75a2519ebc15ed0d}{}\label{class_a_v_l_tree_ae4693e692f12c92e75a2519ebc15ed0d} 
+void \hyperlink{class_a_v_l_tree_ae4693e692f12c92e75a2519ebc15ed0d}{make\+Empty} ()
+\begin{DoxyCompactList}\small\item\em removes all the elements in the \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \end{DoxyCompactList}\item 
+void \hyperlink{class_a_v_l_tree_ae767da0ef324212a6b60d2c735f4546b}{insert} (const object \&x)
+\begin{DoxyCompactList}\small\item\em insert element into the Avl\+Tree \end{DoxyCompactList}\item 
+void \hyperlink{class_a_v_l_tree_ac2e624021d1bed72ccccee5bd0eea85c}{insert} (const object \&\&x)
+\begin{DoxyCompactList}\small\item\em insert element into the Avl\+Tree \end{DoxyCompactList}\item 
+void \hyperlink{class_a_v_l_tree_addcc3b4db7631a7c21ca43a9ac3b1a84}{remove} (const object \&x)
+\begin{DoxyCompactList}\small\item\em remove element from Avl\+Tree \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_v_l_tree_a27d1c8fac94be14ce1ab128aebe84914}{is\+Empty} () const
+\begin{DoxyCompactList}\small\item\em checks if the Avl\+Tree is empty \end{DoxyCompactList}\item 
+bool \hyperlink{class_a_v_l_tree_a515e54ca6d0cf55b233f306b03f6c565}{contains} (const object \&x)
+\begin{DoxyCompactList}\small\item\em checks if Avl\+Tree contains the element \end{DoxyCompactList}\item 
+\hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \& \hyperlink{class_a_v_l_tree_a449ca1d3b6daeeb26870d4f0c9723be2}{operator=} (const \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \&rhs)
+\item 
+void \hyperlink{class_a_v_l_tree_a9ad949733d3d166d12125cd7ab483fde}{print\+Tree} (std\+::ostream \&out=std\+::cout) const
+\begin{DoxyCompactList}\small\item\em Print elemenets of the \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} in order. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_a_v_l_tree_aa8aed3bae2f9006d2d8b91db22f78540}{}\label{class_a_v_l_tree_aa8aed3bae2f9006d2d8b91db22f78540} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{A\+V\+L\+Tree()}{AVLTree()}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+\hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::\hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} (\begin{DoxyParamCaption}\item[{const \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+copy Avl\+Tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_a_v_l_tree_a515e54ca6d0cf55b233f306b03f6c565}{}\label{class_a_v_l_tree_a515e54ca6d0cf55b233f306b03f6c565} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!contains@{contains}}
+\index{contains@{contains}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+bool \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::contains (\begin{DoxyParamCaption}\item[{const object \&}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+checks if Avl\+Tree contains the element 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\hypertarget{class_a_v_l_tree_a72e12a134186842a034ee0e9c6a59ed6}{}\label{class_a_v_l_tree_a72e12a134186842a034ee0e9c6a59ed6} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!find\+Max@{find\+Max}}
+\index{find\+Max@{find\+Max}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{find\+Max()}{findMax()}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+const object\& \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::find\+Max (\begin{DoxyParamCaption}\item[{const \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+find maximun value in the Avl\+Tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+\hypertarget{class_a_v_l_tree_abb8296a20c0ab3fc8b172cb8c566cbd4}{}\label{class_a_v_l_tree_abb8296a20c0ab3fc8b172cb8c566cbd4} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!find\+Min@{find\+Min}}
+\index{find\+Min@{find\+Min}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{find\+Min()}{findMin()}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+const object\& \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::find\+Min (\begin{DoxyParamCaption}\item[{const \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+find minimun value in the Avl\+Tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+object 
+\end{DoxyReturn}
+\hypertarget{class_a_v_l_tree_ae767da0ef324212a6b60d2c735f4546b}{}\label{class_a_v_l_tree_ae767da0ef324212a6b60d2c735f4546b} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!insert@{insert}}
+\index{insert@{insert}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+void \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::insert (\begin{DoxyParamCaption}\item[{const object \&}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+insert element into the Avl\+Tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & object \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_v_l_tree_ac2e624021d1bed72ccccee5bd0eea85c}{}\label{class_a_v_l_tree_ac2e624021d1bed72ccccee5bd0eea85c} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!insert@{insert}}
+\index{insert@{insert}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+void \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::insert (\begin{DoxyParamCaption}\item[{const object \&\&}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+insert element into the Avl\+Tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & object \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_v_l_tree_a27d1c8fac94be14ce1ab128aebe84914}{}\label{class_a_v_l_tree_a27d1c8fac94be14ce1ab128aebe84914} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{is\+Empty()}{isEmpty()}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+bool \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+checks if the Avl\+Tree is empty 
+
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\hypertarget{class_a_v_l_tree_a449ca1d3b6daeeb26870d4f0c9723be2}{}\label{class_a_v_l_tree_a449ca1d3b6daeeb26870d4f0c9723be2} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!operator=@{operator=}}
+\index{operator=@{operator=}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+\hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}\& \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$ \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_v_l_tree_a9ad949733d3d166d12125cd7ab483fde}{}\label{class_a_v_l_tree_a9ad949733d3d166d12125cd7ab483fde} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!print\+Tree@{print\+Tree}}
+\index{print\+Tree@{print\+Tree}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{print\+Tree()}{printTree()}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+void \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::print\+Tree (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Print elemenets of the \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree} in order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & std\+::ostream \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_a_v_l_tree_addcc3b4db7631a7c21ca43a9ac3b1a84}{}\label{class_a_v_l_tree_addcc3b4db7631a7c21ca43a9ac3b1a84} 
+\index{A\+V\+L\+Tree@{A\+V\+L\+Tree}!remove@{remove}}
+\index{remove@{remove}!A\+V\+L\+Tree@{A\+V\+L\+Tree}}
+\subsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily template$<$typename object , typename comparator  = less$<$object$>$$>$ \\
+void \hyperlink{class_a_v_l_tree}{A\+V\+L\+Tree}$<$ object, comparator $>$\+::remove (\begin{DoxyParamCaption}\item[{const object \&}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+remove element from Avl\+Tree 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & object \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_a_v_l_tree_8h}{A\+V\+L\+Tree.\+h}\item 
+A\+V\+L\+Tree.\+cpp\end{DoxyCompactItemize}
